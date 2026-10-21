@@ -217,6 +217,7 @@ class XCache extends AbstractAdapter implements
      *
      * @return KeyListIterator
      */
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         $options   = $this->getOptions();
